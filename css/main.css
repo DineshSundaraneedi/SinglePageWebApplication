@@ -1,0 +1,99 @@
+@import url("../modules/Menu/css/menuStyling.css");
+@import url("../modules/HumanFace/css/styles.css");
+@import url("../modules/MouseHoverImage/css/MouseHover.css");
+@import url("../modules/Box-Sizing/css/BoxSizingStyle.css");
+@import url("../modules/OrderList/css/OrderStyle.css");
+@import url("../modules/Button/css/ButtonStyle.css");
+@import url("../modules/Ribbon/css/RibbonDesign.css");
+@import url("../modules/BorderImage/css/BorderStyle.css");
+@import url("../modules/Triangle/css/TriangleStyle.css");
+@import url("../modules/TextColumns/css/columns.css");
+@import url("../modules/EmptyBox/css/EmptyBlockStyle.css");
+@import url("../modules/TextBlur/css/TextBlurStyle.css");
+@import url("../modules/Paragraph1/css/ParaStyle.css");
+@import url("../modules/Paragraph2/css/FirstLineStyle.css");
+@import url("../modules/AboutUs/css/AboutUsStyle.css");
+@import url("../modules/Contact/css/Contact.css");
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #005ce6;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    font-family: Comic Sans MS, cursive, sans-serif margin-bottom: 15px;
+}
+
+header img {
+    height: 40px;
+}
+
+body {
+    background: #4d94ff url(../images/background.jpg) no-repeat;
+}
+
+footer {
+    background: #005ce6;
+    color: white;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    position: fixed;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+footer .foot {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+footer a {
+    margin-right: 5px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    target="_blank";
+}
+
+.Page {
+    width: 700px;
+    height: 580px;
+    margin-top: 20px;
+    background: #e6e6e6;
+    padding: 25px;
+}
+
+@media only screen and (max-width:400px) {
+    body {
+        background: none;
+    }
+    header {
+        margin: 0px;
+        font-size: 20px;
+    }
+    footer .foot {
+        float: none;
+        margin-top: 0px;
+        display: block;
+    }
+    footer img {
+        width: 10px;
+        height: 10px;
+    }
+    footer {
+        font-size: 10px;
+        width: 100%;
+    }
+    .Page {
+        width: 350px;
+        height: 400px;
+        margin-top: 10px;
+        padding: 15px;
+    }
+}

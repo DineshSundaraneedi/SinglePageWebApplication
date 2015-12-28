@@ -1,0 +1,24 @@
+.List {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin:100px 200px;
+}
+
+.List ol {
+    counter-reset: l;
+}
+
+.List li {
+    padding-left: 20px;
+    display: block
+}
+
+.List li:before {
+    content: counters(l, ".") ".";
+    counter-increment: l
+}
+@media only screen and (max-width:400px) {
+	.List {
+    margin:75px 50px;
+}
+}

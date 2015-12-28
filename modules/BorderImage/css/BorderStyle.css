@@ -1,0 +1,22 @@
+ .bi {
+     font-size: 30px;
+     border: 50px solid transparent;
+     -webkit-border-image-source: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+     /* Safari 3.1-5 */
+     -o-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+     /* Opera 11-12.1 */
+     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+ }
+ 
+ @media only screen and (max-width:400px) {
+     .bi {
+         font-size: 15px;
+         width:75%;
+         border: 25px solid transparent;
+         -webkit-border-image-source: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+         /* Safari 3.1-5 */
+         -o-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+         /* Opera 11-12.1 */
+         border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6q7T7okG9dOWrG-9mAT-rVeEd1XfqenJ06Ju9NFkZZBf1Ysj7) 30% round;
+     }
+ }

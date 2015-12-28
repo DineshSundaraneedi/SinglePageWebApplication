@@ -1,0 +1,14 @@
+.FL {
+    color: black;
+    text-align: justify;
+}
+
+.FL p:first-line {
+    color: blue;
+}
+
+.FL p:first-letter {
+    color: #000080;
+    font-weight: bold;
+    font-size: 25px
+}

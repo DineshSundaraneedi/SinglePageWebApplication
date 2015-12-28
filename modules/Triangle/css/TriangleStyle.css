@@ -1,0 +1,24 @@
+.sqr {
+    width: 200px;
+    height: 100px;
+    background: #008ae6;
+    border-radius: 20px;
+    position: relative;
+    margin:100px 200px; 
+}
+.sqr:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 35px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #008ae6;
+    border-bottom: 13px solid transparent;
+}
+@media only screen and (max-width: 400px){
+ .sqr {
+    margin:100px 100px; 
+}   
+}

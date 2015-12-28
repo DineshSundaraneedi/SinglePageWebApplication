@@ -1,0 +1,9 @@
+.con1{
+	margin:100px 100px;
+	width:300px;
+	height:200px;
+	background:black;
+	color:white;	
+	border:5px solid #005ce6;
+	padding:10px;
+}

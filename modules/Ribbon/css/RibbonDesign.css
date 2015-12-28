@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background: #8c8c8c;
+    z-index: -1;
+}
+
+.ribbon {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    z-index: 1;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    text-transform: uppercase;
+    text-align: center;
+   font-size:12px;
+    box-shadow: 0 0 0 3px #b30000;
+    border: 1px solid white;
+    transform : rotate(-45deg);
+    -webkit-transform : rotate(-45deg);
+    width: 150px;
+    display: block;
+    background: #b30000;
+    position: absolute;
+    top: 25px;
+    left: -41px;
+}
+@media only screen and (max-width:400px){
+	.ribbon{
+		top:450px;
+		left:150px;
+	}
+
+}

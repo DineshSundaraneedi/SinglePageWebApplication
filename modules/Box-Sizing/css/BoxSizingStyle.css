@@ -1,0 +1,40 @@
+.a,
+.b,
+.c {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 10px;
+    color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+.a {
+    background-color: #00b8e6;
+}
+
+.b {
+    border: 15px solid #336599;
+}
+
+.c {
+    background-color: #4700b3;
+    padding: 50px;
+}
+
+@media only screen and (max-width:400px)  {
+    .a,
+    .b,
+    .c {
+        margin-left: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .b {
+        border: 10px solid #336599;
+    }
+    .c {
+        background-color: #4700b3;
+        padding: 20px;
+    }
+}

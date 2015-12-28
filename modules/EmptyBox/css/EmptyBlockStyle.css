@@ -1,0 +1,19 @@
+._emp {
+    width: 200px;
+    height: 200px;
+    background-color: #33ccff;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+._emp:empty {
+    background-color: orange;
+}
+
+@media only screen and (max-width: 400px) {
+    ._emp {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
+}
